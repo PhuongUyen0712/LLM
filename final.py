@@ -5,16 +5,16 @@ import time
 
 # --- Cấu hình ---
 # Vui lòng thay thế bằng API key của bạn
-API_KEY = "AIzaSyAAWA__p1Dw6zSBMnCLi57wZZcSY_ExUq0"
-MODEL_NAME = "gemini-1.5-flash"
+API_KEY = "AIzaSyCoVcOf76dOq-oGam5BTUayqXCRSqsgZ-8"
+MODEL_NAME = "gemini-1.5-pro-latest"
 
 # Tên tệp đã được cập nhật để khớp với tệp bạn đã tải lên
 DATASET_FILE = "Conversation.txt"
 #PROMPT_OLD_FILE = "prompt_old.txt"
-PROMPT_NEW_FILE = "prompt_new.txt"
+PROMPT_NEW_FILE = "new_prompt_with_example.txt"
 
 RESULTS_OLD = "results_old.jsonl"
-RESULTS_NEW = "results_new_prompt_new_txt.jsonl"
+RESULTS_NEW = "results_new_gemini_pro.jsonl"
 # Giới hạn số lượng hội thoại để xử lý (đặt là None để chạy toàn bộ dataset)
 MAX_DIALOGUES = 5
 
