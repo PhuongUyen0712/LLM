@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "dialogue": "SYSTEM\tDo you like movies like Thor?\tENTITY_NAME+MOVIE_OR_SERIES\nUSER\tNo, I don't like Thor.\tENTITY_NAME+MOVIE_OR_SERIES\t3,2,2\n ... (cắt ngắn cho gọn) ... \nUSER\tOVERALL\tOTHER\t3,3,3",
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 90,
+        "justification": "Successfully determined user's movie preferences."
+      },
+      "HelpfulnessRelevance": {
+        "score": 80,
+        "justification": "Mostly relevant questions, but some follow-ups could have been more concise."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 95,
+        "justification": "No factual inaccuracies."
+      },
+      "EmpathyPoliteness": {
+        "score": 85,
+        "justification": "Polite and respectful throughout the conversation."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No safety concerns or policy violations."
+      },
+      "EfficiencyEffort": {
+        "score": 70,
+        "justification": "Several rounds of back-and-forth could have been avoided with more focused questions."
+      },
+      "FluencyCoherence": {
+        "score": 75,
+        "justification": "Some grammatical errors and slightly unclear phrasing from the user, but overall coherent."
+      },
+      "OverallExperience": {
+        "score": 82,
+        "justification": "Average of all scores. No single score was critically low, so no further reduction."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "dialogue": "SYSTEM\tWhat kinds of movies do you like?\tOTHER\nUSER\tOh you know, I like spy films, ...",
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 90,
+        "justification": "Successfully gathered information about the user's movie preferences."
+      },
+      "HelpfulnessRelevance": {
+        "score": 90,
+        "justification": "Questions were relevant and elicited detailed responses."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 100,
+        "justification": "No factual errors or inconsistencies."
+      },
+      "EmpathyPoliteness": {
+        "score": 85,
+        "justification": "Polite and engaging conversation, showing some interest in user opinions."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No PII or policy violations."
+      },
+      "EfficiencyEffort": {
+        "score": 80,
+        "justification": "The conversation flowed well, requiring minimal back-and-forth."
+      },
+      "FluencyCoherence": {
+        "score": 90,
+        "justification": "Natural language used; the dialogue was coherent and easy to follow."
+      },
+      "OverallExperience": {
+        "score": 89,
+        "justification": "Average of all scores. No dimension was critically low."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "dialogue": "SYSTEM\tWhat kind of movies do you like?\tOTHER\nUSER\tI like romantic comedies.\tENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY\t3,3,3\n ...",
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 90,
+        "justification": "The system successfully gathered information about the user's movie preferences."
+      },
+      "HelpfulnessRelevance": {
+        "score": 95,
+        "justification": "The questions were relevant and helped to understand the user's preferences in detail."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 100,
+        "justification": "No factual inconsistencies or inaccuracies were present."
+      },
+      "EmpathyPoliteness": {
+        "score": 90,
+        "justification": "The conversation was polite and respectful, showing interest in the user's opinions."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No safety concerns or policy violations."
+      },
+      "EfficiencyEffort": {
+        "score": 85,
+        "justification": "The dialogue was efficient, with minimal back-and-forth to gather comprehensive information."
+      },
+      "FluencyCoherence": {
+        "score": 95,
+        "justification": "The language used was natural, grammatically correct, and the conversation flowed logically."
+      },
+      "OverallExperience": {
+        "score": 92,
+        "justification": "Average of all scores. No score was critically low."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "dialogue": "SYSTEM\tWhat kind of movies to you like, and why do you like this type of movie?\tOTHER\nUSER\tI really like dramas. ...",
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 95,
+        "justification": "Successfully elicited movie preferences and reasons."
+      },
+      "HelpfulnessRelevance": {
+        "score": 90,
+        "justification": "All questions were relevant and helpful in understanding movie preferences."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 100,
+        "justification": "No factual inconsistencies or inaccuracies."
+      },
+      "EmpathyPoliteness": {
+        "score": 95,
+        "justification": "Polite and respectful throughout the conversation."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No PII or policy violations."
+      },
+      "EfficiencyEffort": {
+        "score": 90,
+        "justification": "Minimal back-and-forth; efficient in gathering information."
+      },
+      "FluencyCoherence": {
+        "score": 95,
+        "justification": "Natural and grammatically correct language; logical flow of conversation."
+      },
+      "OverallExperience": {
+        "score": 94,
+        "justification": "Average of all scores. No score was below 40, so no deduction was necessary."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "dialogue": "SYSTEM\tHello. What kind of movies do you like?\tOTHER\nUSER\tSci-fi movies.\tENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY\t3,3,3,2\n ...",
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 70,
+        "justification": "Successfully gathered information about movie preferences, but some questions were unanswered."
+      },
+      "HelpfulnessRelevance": {
+        "score": 75,
+        "justification": "Questions were relevant to the task, but the responses were somewhat brief."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 90,
+        "justification": "No factual inconsistencies or errors were present."
+      },
+      "EmpathyPoliteness": {
+        "score": 80,
+        "justification": "Polite and professional, but lacked deeper engagement with user preferences."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No PII leakage, policy violations, or unsafe advice."
+      },
+      "EfficiencyEffort": {
+        "score": 60,
+        "justification": "Multiple questions were needed for minimal information. Several movies were mentioned that the user had not seen."
+      },
+      "FluencyCoherence": {
+        "score": 85,
+        "justification": "Language used was clear and grammatically correct throughout the conversation."
+      },
+      "OverallExperience": {
+        "score": 75,
+        "justification": "Average of all scores.  Efficiency score pulled the average down slightly."
+      }
+    }
+  }
+]

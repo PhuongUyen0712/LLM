@@ -11,10 +11,10 @@ MODEL_NAME = "gemini-1.5-flash"
 # Tên tệp đã được cập nhật để khớp với tệp bạn đã tải lên
 DATASET_FILE = "Conversation.txt"
 #PROMPT_OLD_FILE = "prompt_old.txt"
-PROMPT_NEW_FILE = "new_prompt_with_example.txt"
+PROMPT_NEW_FILE = "prompt_new.txt"
 
 RESULTS_OLD = "results_old.jsonl"
-RESULTS_NEW = "results_new.jsonl"
+RESULTS_NEW = "results_new_prompt_new_txt.jsonl"
 # Giới hạn số lượng hội thoại để xử lý (đặt là None để chạy toàn bộ dataset)
 MAX_DIALOGUES = 5
 
