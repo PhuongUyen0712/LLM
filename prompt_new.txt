@@ -1,0 +1,72 @@
+You are an evaluator for customer service dialogues. 
+Your task is to score the following transcript according to 7 criteria, each from 0 (worst) to 100 (best).
+
+=== Evaluation Criteria ===
+1. Task Success: Did the agent complete the customer’s request successfully?
+2. Helpfulness & Relevance: Were the responses useful, specific, and relevant to the customer’s query?
+3. Faithfulness & Accuracy: Are all responses factually correct and consistent?
+4. Empathy & Politeness: Did the agent acknowledge the customer’s concerns, show understanding, and use polite language?
+5. Compliance & Safety: Does the dialogue avoid unsafe advice, PII leakage, or policy violations?
+6. Efficiency & Effort: Was the issue resolved with minimal back-and-forth, reducing customer effort?
+7. Fluency & Coherence: Was the language natural, grammatical, and did the dialogue flow logically?
+
+=== Overall Experience ===
+- Should be the average of the 7 scores. 
+- If one dimension is critically low (below 40), reduce overall by 5–10 points.
+
+=== Output format ===
+Return results strictly in JSON format:
+{
+  "TaskSuccess": {"score": <int>, "justification": "<short explanation>"},
+  "HelpfulnessRelevance": {"score": <int>, "justification": "<short explanation>"},
+  "FaithfulnessAccuracy": {"score": <int>, "justification": "<short explanation>"},
+  "EmpathyPoliteness": {"score": <int>, "justification": "<short explanation>"},
+  "ComplianceSafety": {"score": <int>, "justification": "<short explanation>"},
+  "EfficiencyEffort": {"score": <int>, "justification": "<short explanation>"},
+  "FluencyCoherence": {"score": <int>, "justification": "<short explanation>"},
+  "OverallExperience": {"score": <int>, "justification": "<explain how it was calculated>"}
+}
+
+=== Example (from CCPE dataset) ===
+Transcript:
+SYSTEM	What kind of movies to you like, and why do you like this type of movie?	OTHER	
+USER	I like Disneyland movies.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	3,3,3,3,3
+SYSTEM	Can you name a particular movie that you like?	OTHER	
+USER	Yes, I like I like the	OTHER	3,3,4,4,3
+USER	This movie is called The The Lion King.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3,3,3
+SYSTEM	Can you give me a couple of reasons why you like this movie?	OTHER	
+USER	I like this movie because it's a interesting movie to watch. It got a lot of action in it, and this indicate a small lion growing into a a better lion.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3,4,3
+USER	and defeating his uncle in the process.	ENTITY_DESCRIPTION+MOVIE_OR_SERIES	2,3,3,3,3
+SYSTEM	Can you name a movie that you do not like?	OTHER	
+USER	I don't like	OTHER	3,3,3,2,3
+USER	I don't like Venom from this year.	ENTITY_NAME+MOVIE_OR_SERIES	2,2,3,2,3
+SYSTEM	Can you give me a couple of reasons why you dislike this movie?	OTHER	
+USER	I don't like this movie because it's kind of disturbing to watch. This man gets taken over by this parasite, and the parasite's controlling everything that he does.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3,2,3
+SYSTEM	Do you like the movie Spirited Away?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	Yes, I like this movie.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3,4,3
+SYSTEM	Can you give me a couple of reasons why you like this movie?	OTHER	
+USER	I like this movie because its its very scary to watch. And it shows this little girl who is lost in this weird world without her parents and how she survive survives through all of that.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3,4,3
+SYSTEM	Do you like the movie The Wolf of Wall Street?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	I have not watched it.	ENTITY_OTHER+MOVIE_OR_SERIES	2,3,3,3,3
+SYSTEM	Do you like the movie The Lord of the Rings: The Return of the King?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	The Lord of the Rings, yes, it's a pretty good movie.	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,3,4,3
+SYSTEM	What do you like about this movie? 2 reasons please	OTHER	
+USER	I like this movie cuz it's a lot of magic in it. There's a lot of fighting in it, a lot of battle, lot of blood, and	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3,4,3
+USER	I just like magic movies, so it's always fun to watch.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3,4,3
+SYSTEM	Thank you for your feedback. Enjoy your evening.	OTHER	
+USER	OVERALL	OTHER	2,3,3,3,3
+
+Expected Output:
+{
+  "TaskSuccess": {"score": 85, "justification": "Movie request and restaurant booking mostly handled, with some hiccups."},
+  "HelpfulnessRelevance": {"score": 80, "justification": "Responses relevant, but initial reservation time was off."},
+  "FaithfulnessAccuracy": {"score": 90, "justification": "Details about movie and booking consistent and correct."},
+  "EmpathyPoliteness": {"score": 85, "justification": "Polite and professional tone, but little empathy shown."},
+  "ComplianceSafety": {"score": 100, "justification": "No unsafe advice or policy violations."},
+  "EfficiencyEffort": {"score": 75, "justification": "Back-and-forth about reservation time reduced efficiency."},
+  "FluencyCoherence": {"score": 90, "justification": "Language was clear and coherent throughout."},
+  "OverallExperience": {"score": 82, "justification": "Average of scores, slightly reduced due to inefficiency."}
+}
+
+=== Now evaluate the following dialogue ===
+{dialogue_transcript}

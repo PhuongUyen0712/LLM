@@ -1,0 +1,115 @@
+SYSTEM	What kinds of movies do you like?	OTHER	
+USER	Oh you know, I like spy films, and I like Sci-Fi and	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	3,3,3,3
+USER	I like anything with a lot of action in it.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	3,4,3,3
+SYSTEM	Well, tell me why do you like science fiction movies?	OTHER	
+USER	I like to think about the what we could have in the future that that we don't have now. Yeah, and at the same how when the future they will have the same problems that we do just with better technology. That is interesting to me. It's kind of the human condition always always continues.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	4,4,3,3
+SYSTEM	cool, what is your favorite movie?	OTHER	
+USER	Oh man, my favorite movie?	OTHER	3,3,3,3
+USER	It changes. I don't have a favorite movie.	OTHER	3,4,3,3
+USER	I mean	OTHER	2,3,3,3
+USER	Dr. Strangelove might be my favorite. Full Metal Jacket might be my favorite.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3,3
+SYSTEM	alright, Why might full metal jacket be your favorite movie?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	Let's see. Well, it's written by Stanley Kubrick. Which is important cuz he's my favorite director. It's got a boot camp scene in the Half the movie's the boot camp and then half the movie's the stuff in Vietnam. And it just It's a It's an anti-war film. It's just really well done. The acting is fantastic. And it's really really intense.	ENTITY_PREFERENCE+PERSON	3,4,4,3
+SYSTEM	Interesting, is there a movie you do not like?	OTHER	
+USER	man	OTHER	2,3,3,3
+USER	Bowling for Columbine or anything by that guy. I can't remember the director.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3,3
+SYSTEM	oh, Why not?	OTHER	
+USER	I don't like the director. I I think he's pretentious, and that says something cuz considering I'm pretentious. So, he's just	ENTITY_PREFERENCE+PERSON	3,4,3,3
+USER	He's just annoying, so the movie's annoying.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3,3
+SYSTEM	Ok, then have you seen the movie The Accountant ?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	I may have but I I can't remember the plot.	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,3,3
+SYSTEM	how about, then have you seen the movie Pulp Fiction	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	I have seen the movie. Yes.	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,3,3
+SYSTEM	What is it about this kinds of movies that you like or dislike?	OTHER	
+USER	A Pulp Fiction is great. It just got this it's wonderfully violent, it's humorous, the cast is fantastic. Well if you're you got the same objection and principles as in it I think I might they made the first time they were together were they were also in Die Hard from together they they worked great together. And just add little sub stories in in Pulp Fiction make just a fantastic film.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3,3
+SYSTEM	Wonderful. thank you for sharing. Good bye.	OTHER	
+USER	Goodbye.	OTHER	2,3,3,3
+USER	OVERALL	OTHER	3,4,3,3
+
+SYSTEM	What kind of movies to you like, and why do you like this type of movie?	OTHER	
+USER	I really like dramas. I don't like every single drama but I do like that that they can take sort of a slice of life and make something special out of it. Dramas are usually the most realistic and the most ordinary type of movies that you can go and see. So, there are makers who can make something special out of sort of an ordinary is quite an accomplishment and enjoyable to watch.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	3,3,3
+SYSTEM	Can you name a particular movie that you like?	OTHER	
+USER	Sure. Good Will Hunting is one of my favorite movies.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3
+SYSTEM	Can you give me a couple of reasons why you like this movie?	OTHER	
+USER	Sure. The cast is excellent. The writing is superb. It is really It was so original and so insightful for who the characters were. Very And the movie was incredibly endearing and incredibly touching.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3
+SYSTEM	Can you name a movie that you do not like?	OTHER	
+USER	Sure. I don't like the Titanic.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3
+SYSTEM	What do you dislike about this movie? Please give me 2 reasons.	OTHER	
+USER	Sure. It is an epic film, and to me, it doesn't do well with its epicness. It is rather ordinary, and the two main characters, while likable, would have been better suited for something of a smaller scale, despite the overall grand nature of the story they were trying to tell in the historical aspect. And the other thing is that it just	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3
+USER	It's It's so such a over hyped movie and it's just, I don't know, ordinary. It's not something that's overly enjoyable and it's nothing that you want to keep watching over and over again. It having a good soundtrack or two likable characters out of, I don't know, a hundred isn't something that you should should get loaded over so much.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,2
+SYSTEM	Do you like the movie Insurgent?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	I do.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3
+SYSTEM	What do you like about this movie? Please give me 2 reasons.	OTHER	
+USER	Sure. Insurgent is a sequel to Divergent and it I like the first one and the second one is very good. It is a good a really good continuation of the of the story and it's a a nice sort of second look into the characters that we met the first time but in a really showing them in a completely different not a completely different make but in a different light that we saw	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3
+USER	first one In the first one they were battling for something competitively different than in the second one even thought they are related, so it really did carry a long the imagery well. It was very enjoyable.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,2
+SYSTEM	Do you like the movie Interstellar ?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	I haven't seen Interstellar.	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,3
+SYSTEM	Have you heard of this movie?	OTHER	
+USER	I have.	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,3
+SYSTEM	Would you go see it?	OTHER	
+USER	I would, but it's probably something that I would It's more likely that I would see with a friend who wanted to see it more than I did.	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,3
+SYSTEM	Do you like the movie Solo: A Star Wars Story?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	Yeah, I I like Star Wars movies. Yes.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3
+SYSTEM	What do you like about this movie? Please give me 2 reasons.	OTHER	
+USER	Sure. It is Star Wars mythology and the world that they create is really something special, and this definitely continues that. The other thing is that it's just It's quite a world that they've created, so it's exciting. So it really is a nice escape, and it's incredibly detailed, so it helps to sort of create this other world. It's a lot to follow, but it is enjoyable.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3
+SYSTEM	Do you like the movie Batman v Superman: Dawn of Justice ?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	It's not my favorite. No.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	2,3,3
+SYSTEM	Why do you dislike this movie? Please give 2 reasons.	OTHER	
+USER	Sure. I think it was poorly thought out. I think the So I think it was poorly thought out, and the writing, because it was poorly thought out, suffered. Like they didn't They knew they were trying to do a movie that included both characters, so they were trying for something interesting, but they didn't have anything that really connected them that warranted making a movie.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3
+SYSTEM	Thank you for your feedback. Enjoy your evening.	OTHER	
+USER	Thanks. You, too.	OTHER	3,3,3
+USER	OVERALL	OTHER	3,3,3
+
+SYSTEM	What kinds of movies do you like?	OTHER	
+USER	I like movies that are more like art house films. One of my favorite movies is The Fall. I also like horror movies and just weird movies in general.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	3,3,3
+SYSTEM	Well, tell me why do you like art house films?	ENTITY_NAME+MOVIE_GENRE_OR_CATEGORY	
+USER	I like them because usually there's a lot of symbolism and there's a lot of thought that goes into every scene usually things are there for a reason and put there for purpose unlike your typical action film that doesn't really have that.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	4,3,3
+SYSTEM	cool, what was your favorite movie again?	OTHER	
+USER	The Fall.	ENTITY_NAME+MOVIE_OR_SERIES	3,4,3
+SYSTEM	alright, Why is that your favorite movie	OTHER	
+USER	Because I love the cinematography. It's beautifully filmed. It was filmed, I think in over 20 countries. It was filmed by a director called Tarsem Singh, if I say his name right. And I believe he financed most of it. It was sort of his pet project, and I like the story. But it's just beautifully	ENTITY_PREFERENCE+MOVIE_OR_SERIES	4,3,3
+USER	A particular movie, I can't think off the top of my head, but in general I'm not a huge fan of comedies. Well, actually I can think of one. I don't really care for like Superbad or movies like that.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	4,3,3
+SYSTEM	Interesting, is there a movie you do not like	OTHER	
+SYSTEM	oh, Why not?	OTHER	
+USER	I just think they're stupid, they're not that interesting to me, and they bore me. It's not my kind of comedy.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	3,4,3
+SYSTEM	Ok, then have you seen the movie The Martian	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	I did see that movie.	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,3
+SYSTEM	What is it about this kind of movies that you like or dislike?	OTHER	
+USER	The Martian was a little slow, I will have to say. It wasn't terrible or anything. I like sci-fi movies, but it was just slow. It got a little boring in parts. If I was going to pick a sci-fi movie that came out around that same time period, I would've picked Interstellar. I think it had a better story and more meaning. And just was more interesting	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3
+USER	Although, I believe the motion was more to the book and not necessarily I wouldn't say to the book, but to how it would surely be to be stuck up on more by yourself eventually.	OTHER	3,3,3
+SYSTEM	Wonderful. thank you for sharing. Good bye.	OTHER	
+USER	Goodbye	OTHER	3,3,3
+USER	OVERALL	OTHER	3,4,3
+
+SYSTEM	Do you like movies like Star Wars?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	Sure do. I like the fantasy science fiction Western mixture, the good guy versus bad guy with the light sabers instead of guns.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,4,3
+SYSTEM	Awesome. I agree. How about movies like the Matrix?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	One of my favorites. Still every time I go see a movie, especially a science fiction or action movie, I always end up comparing it to the experience I had first time watching the original Matrix. The I love There's not anything bad about it that I've ever noticed or seen. It's	ENTITY_OTHER+MOVIE_OR_SERIES	3,4,3
+USER	Twist at the end, the action, the science fiction, it all works for me.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,4,3
+SYSTEM	It set the standard for action computer graphics. Everything after that had to at least live up that the original Matrix.	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	That's true, It changed a lot of for a long time how action scenes were shot especially with that slow motion 360 cam. Now we've kind of gone the opposite where it's like Jason Bourne movies where everything is so quick cut and you can't tell what's going on. I wish we could go back to the Matrix.	ENTITY_NAME+MOVIE_OR_SERIES	3,3,3
+SYSTEM	What did you think about the hunger games? the action was there, as well as the CGI	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	I think I only saw the first two Hunger Games and they were all right. I mean they they were no matrix or anything but I could see myself if it came on cable TV you know, as they say like a rainy Saturday afternoon or something. I could watch them again. But I don't own them and	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,3
+USER	I don't look for to own them anytime soon.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,2,3
+SYSTEM	Awesome. Thank you so much for your input! It's been a huge help!	OTHER	
+USER	OVERALL	OTHER	3,4,3
+
+SYSTEM	I’d like to discuss your movie preferences. Ok?	OTHER	
+USER	Yes, I like to watch action movies.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	3,3,3,3
+SYSTEM	What appeals to you with these type of movies?	OTHER	
+USER	They're fun. They're exciting.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY	4,4,4,3
+SYSTEM	Is there a specific movie you enjoy from this genre?	OTHER	
+USER	Die Hard	ENTITY_NAME+MOVIE_OR_SERIES	3,3,2,3
+SYSTEM	What did you like about this movie?	OTHER	
+USER	I liked the end.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,4,3
+USER	fact that Bruce Willis's character was a real person, not a comic book character or anything like that, just a real guy in a difficult situation.	ENTITY_PREFERENCE+MOVIE_OR_SERIES	3,3,3,3
+SYSTEM	Are there any type of movies that you don't enjoy?	OTHER	
+USER	I enjoy all types of movies.	ENTITY_OTHER+MOVIE_GENRE_OR_CATEGORY	3,3,5,3
+SYSTEM	What about these movies is unappealing?	OTHER	
+USER	No. There is no type of movie that I don't like. I watch anything.	ENTITY_OTHER+MOVIE_GENRE_OR_CATEGORY	2,3,3,3
+SYSTEM	Have you seen The Shawshank redemption?	ENTITY_NAME+MOVIE_OR_SERIES	
+USER	Yes, I have.	ENTITY_OTHER+MOVIE_OR_SERIES	3,4,3,3
+SYSTEM	What did you enjoy or not enjoy about this movie?	OTHER	
+USER	Well, the entire thing was great. Just very well plotted, well written, clever. Morgan Freeman was great in it. I'd love to see it again.	ENTITY_OTHER+MOVIE_OR_SERIES	3,3,4,3
+SYSTEM	Thank you for your help and have a wonderful day!	OTHER	
+USER	OVERALL	OTHER	3,4,4,3

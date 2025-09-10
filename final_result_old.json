@@ -1,0 +1,1100 @@
+[
+  {
+    "id": 1,
+    "dialogue": [
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like movies like Thor?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "No, I don't like Thor.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 2, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Ok. What is it about this type of movie that you dislike?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I don't like all the",
+        "tags": ["OTHER"],
+        "scores": [3, 2, 2]
+      },
+      {
+        "speaker": "USER",
+        "text": "Like the I don't know. Like is it voice acting?",
+        "tags": ["OTHER"],
+        "scores": [3, 2, 2]
+      },
+      {
+        "speaker": "USER",
+        "text": "in that controls the characters",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Can you say a little more about that please?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah, so I don't know I guess the acting was bad.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 2]
+      },
+      {
+        "speaker": "USER",
+        "text": "I was wondering if it's voice acting that controls the You wouldn't know.",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like movies like Star Wars?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah, I liked the first Star Wars but I haven't seen I haven't seen any of them since that first one.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 4, 4]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah, I liked the first one.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 4, 4]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Ok. What is it about this type of movie that you like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "It had a good sound track.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 4, 4]
+      },
+      {
+        "speaker": "USER",
+        "text": "The acting was good. It was a good story.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 4]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Can you say a little more about that please?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "What do you want to know about it?",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "anything else that you like about that movie any other details",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah I like, the casting was pretty good I guess. Yeah, the one guy that was the main character once you get that you're done for life. He's making a lot of money from that movie I don't know how it works, but yeah I like Star Wars.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 4]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like movies like Good Will Hunting?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Is that the thing what that what the",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "With the guy and the therapist, is it that movie?",
+        "tags": ["ENTITY_DESCRIPTION", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "yes Robin Williams at the Espy therapist",
+        "tags": ["ENTITY_NAME", "PERSON"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah, I like that movie. I think that was pretty good.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [4, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Ok. What is it about this type of movie that you like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I like the story-driven plot",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 4]
+      },
+      {
+        "speaker": "USER",
+        "text": "As opposed to like the Thor type movies where you have like the action driven plot.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 4]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Can you say a little more about that please?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah, I like the story I like the story narratives. I like that like kind of like in About Schmidt there's a story based narrative and I like that there.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [4, 3, 4]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Thank you. Nice weekend.",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "All right. You too.",
+        "tags": ["OTHER"],
+        "scores": [4, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "OVERALL",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      }
+    ],
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 60,
+        "justification": "The system partially succeeded. It found a movie showing time but failed to make the restaurant reservation as initially requested (11:45 am for 3 people). \u00a0It eventually made a reservation at a different time, but not the customer's preferred time. \u00a0The task wasn't completely successful due to the restaurant booking failure."
+      },
+      "HelpfulnessRelevance": {
+        "score": 70,
+        "justification": "The system provided relevant information about movie showtimes. However, its handling of the restaurant reservation request was inefficient and ultimately unsuccessful at the customer's desired time. \u00a0The questions were mostly relevant but the system didn't understand the implications of the changes (time and number of people)."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 80,
+        "justification": "The movie information seems accurate, assuming the system has access to real-time cinema schedules. The failure with the restaurant reservation isn't a factual inaccuracy; it's a functional limitation. It accurately reflects the system's inability to make the reservation at the specified time."
+      },
+      "EmpathyPoliteness": {
+        "score": 90,
+        "justification": "The system maintained a polite and helpful tone throughout the conversation. \u00a0It apologized for its inability to meet the initial restaurant request."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No PII was leaked, and no unsafe advice was given. \u00a0The system operated within reasonable bounds."
+      },
+      "EfficiencyEffort": {
+        "score": 50,
+        "justification": "The dialogue was inefficient due to the multiple attempts to book the restaurant reservation at the customer's preferred time and the system's inability to accommodate. This required significant back and forth."
+      },
+      "FluencyCoherence": {
+        "score": 85,
+        "justification": "The language used was grammatically correct and easy to understand. The conversation flowed reasonably well, although the repeated attempts at the restaurant reservation disrupted the flow somewhat."
+      },
+      "OverallExperience": {
+        "score": 70,
+        "justification": "While the system successfully helped the user find a movie time, the failure to fulfill the restaurant reservation request at the preferred time significantly impacts the overall experience. The politeness and general helpfulness mitigate the negative impact somewhat, but the inefficiency and inability to meet the customer's specific needs resulted in a less than satisfactory outcome. \u00a0The customer would likely be somewhat frustrated, especially if they really needed that specific reservation time."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "dialogue": [
+      {
+        "speaker": "SYSTEM",
+        "text": "What kinds of movies do you like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Oh you know, I like spy films, and I like Sci-Fi and",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "I like anything with a lot of action in it.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 4, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Well, tell me why do you like science fiction movies?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I like to think about the what we could have in the future that that we don't have now. Yeah, and at the same how when the future they will have the same problems that we do just with better technology. That is interesting to me. It's kind of the human condition always always continues.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [4, 4, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "cool, what is your favorite movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Oh man, my favorite movie?",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "It changes. I don't have a favorite movie.",
+        "tags": ["OTHER"],
+        "scores": [3, 4, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "I mean",
+        "tags": ["OTHER"],
+        "scores": [2, 3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "Dr. Strangelove might be my favorite. Full Metal Jacket might be my favorite.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "alright, Why might full metal jacket be your favorite movie?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Let's see. Well, it's written by Stanley Kubrick. Which is important cuz he's my favorite director. It's got a boot camp scene in the Half the movie's the boot camp and then half the movie's the stuff in Vietnam. And it just It's a It's an anti-war film. It's just really well done. The acting is fantastic. And it's really really intense.",
+        "tags": ["ENTITY_PREFERENCE", "PERSON"],
+        "scores": [3, 4, 4, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Interesting, is there a movie you do not like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "man",
+        "tags": ["OTHER"],
+        "scores": [2, 3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "Bowling for Columbine or anything by that guy. I can't remember the director.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "oh, Why not?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I don't like the director. I I think he's pretentious, and that says something cuz considering I'm pretentious. So, he's just",
+        "tags": ["ENTITY_PREFERENCE", "PERSON"],
+        "scores": [3, 4, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "He's just annoying, so the movie's annoying.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Ok, then have you seen the movie The Accountant ?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I may have but I I can't remember the plot.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "how about, then have you seen the movie Pulp Fiction",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I have seen the movie. Yes.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What is it about this kinds of movies that you like or dislike?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "A Pulp Fiction is great. It just got this it's wonderfully violent, it's humorous, the cast is fantastic. Well if you're you got the same objection and principles as in it I think I might they made the first time they were together were they were also in Die Hard from together they they worked great together. And just add little sub stories in in Pulp Fiction make just a fantastic film.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Wonderful. thank you for sharing. Good bye.",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Goodbye.",
+        "tags": ["OTHER"],
+        "scores": [2, 3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "OVERALL",
+        "tags": ["OTHER"],
+        "scores": [3, 4, 3, 3]
+      }
+    ],
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 40,
+        "justification": "The system successfully identified a movie showing time. However, it completely failed to make a restaurant reservation. \u00a0The initial request was for a film and a restaurant reservation; only one was partially successful. The system's inability to handle the restaurant request, even after multiple attempts, significantly impacts task success."
+      },
+      "HelpfulnessRelevance": {
+        "score": 60,
+        "justification": "The movie information was relevant and helpful, though limited. The system's responses regarding the restaurant reservation were relevant but ultimately unhelpful because it couldn't complete the task. The questions were targeted and relevant to the user's requests, but the execution was poor."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 70,
+        "justification": "The movie showing time appears accurate (assuming the data the system used was correct). However, the system's inability to make a restaurant reservation at McDonald's at the specified times suggests a lack of accurate or up-to-date information regarding restaurant availability. \u00a0It hallucinates its ability to make a reservation."
+      },
+      "EmpathyPoliteness": {
+        "score": 80,
+        "justification": "The system maintains a polite and professional tone throughout. It apologizes for its inability to fulfill the reservation request at the initial time, which demonstrates a degree of empathy."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No PII was leaked, and there were no unsafe suggestions or policy violations."
+      },
+      "EfficiencyEffort": {
+        "score": 40,
+        "justification": "The dialogue is inefficient due to the system's repeated failures in booking the restaurant reservation. \u00a0Significant back-and-forth was required due to the system's limitations, increasing customer effort substantially."
+      },
+      "FluencyCoherence": {
+        "score": 85,
+        "justification": "The language is grammatically correct and easy to understand. The conversation flows logically, despite the system's failures."
+      },
+      "OverallExperience": {
+        "score": 60,
+        "justification": "While the system successfully helped with the movie, its failure to handle the restaurant reservation request significantly diminishes the overall experience. \u00a0The customer likely feels frustrated by the system's inability to complete a seemingly simple task. \u00a0The polite tone helps somewhat but does not offset the primary failure of the system. \u00a0A 60 reflects a moderately dissatisfied customer due to the incomplete task completion."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "dialogue": [
+      {
+        "speaker": "SYSTEM",
+        "text": "What kind of movies do you like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I like romantic comedies.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "So what do you think about The Shape of Water?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "You know I know that was a highly rated movie, but for whatever reason at the time I didn't get into it or I didn't see many trailers for it, so I really don't know much about it. I think it won an academy award or two, but just never heard much about it.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you think if you saw more about it, you would have watched it?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Might have.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "It's hard to say when you know very little about a movie, except that it had an unusual title.",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What movie have you seen recently?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Oh. Well, I watched Sherlock Holmes movies actually.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "And I saw Dunkirk recently.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "on TV",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like movies about conflicts?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I like history a lot, and so",
+        "tags": ["ENTITY_PREFERENCE", "SOMETHING_ELSE"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "A lot of World War II movies, I find interesting.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [4, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "but I would even watch documentaries. I'm a huge PBS fan.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "curious about the word, I guess you could say.",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "I like to learn why the conflict started.",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What kind of movies do you not like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I'm not a big fan of musicals as movies.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Did you see Wonder Woman?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Wonder Woman",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "I've seen parts of it on TV.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "But I haven't seen the whole thing.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What did you like about it?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Well, there was action, there was some comedy in it that was fun, and of course Wonder Woman looks great. Just looking at Wonder Woman is good for guys. But she was cool. She She had spunk, as Lou Grant would say.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [4, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "And she could take care of herself, so",
+        "tags": ["ENTITY_PREFERENCE", "SOMETHING_ELSE"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "I liked assertive women.",
+        "tags": ["ENTITY_PREFERENCE", "SOMETHING_ELSE"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Is The Matrix a movie that interests you?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "The first one interested me. I didn't think the second and third ones were as nearly as good.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 4, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah. It's Sometimes it just seemed weird for weird's sake, but it certainly held my interest trying to figure out what was going on.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "It had an element of mystery to it, I guess you could say.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like or dislike the movie Aliens?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Oh, I dislike it. It's I don't know if it's officially a horror movie or sci-fi horror movie, but I refuse to go to any horror movies. I don't pay money to get scared.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What did you dislike the most about it?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Well, jumping out of my seat.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "being scared",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "That's not my idea of entertainment.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Thank you for your input. Have a nice day",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Thank you.",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "OVERALL",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      }
+    ],
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 50,
+        "justification": "The system partially succeeded. It found a movie showing time, but failed to secure a restaurant reservation at the initially requested time and then only partially succeeded in finding an alternative time. \u00a0The initial request was for a reservation at a specific time; the system ultimately couldn't fulfill that."
+      },
+      "HelpfulnessRelevance": {
+        "score": 60,
+        "justification": "The responses were somewhat relevant. The system understood the movie request and attempted to fulfill the restaurant request but struggled with the time constraints. \u00a0The restaurant suggestion itself was unusual, and it didn't offer alternatives for restaurants."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 70,
+        "justification": "The movie showing time information *might* be accurate (we cannot verify), but the system's ability to make restaurant reservations is questionable. It's unlikely it can make reservations for McDonald's directly through a natural language interface. \u00a0There's a lack of transparency about its capabilities."
+      },
+      "EmpathyPoliteness": {
+        "score": 80,
+        "justification": "The system maintained a polite and somewhat helpful tone throughout. \u00a0It apologized for the inability to fulfill the initial restaurant request. \u00a0However, it could have provided more explanations instead of simply stating it \"can't do that.\""
+      },
+      "ComplianceSafety": {
+        "score": 90,
+        "justification": "No PII was leaked. The dialogue avoided unsafe advice and didn't violate any apparent policies. \u00a0However, the system's unexpected ability to book restaurants raises a question about the clarity of its capabilities and potential unseen limitations."
+      },
+      "EfficiencyEffort": {
+        "score": 40,
+        "justification": "The dialogue was inefficient and required a lot of back-and-forth. \u00a0The system's failure to manage the restaurant request properly significantly increased the customer's effort."
+      },
+      "FluencyCoherence": {
+        "score": 85,
+        "justification": "The sentences were grammatically correct and easy to understand. \u00a0The conversation flowed logically, though the back-and-forth nature reduced overall efficiency."
+      },
+      "OverallExperience": {
+        "score": 60,
+        "justification": "The customer would likely be somewhat dissatisfied. While the movie showing time was found, the system's significant issues with the restaurant reservation request would be frustrating. The combination of partial success with significant effort on the customer's part leads to a low overall satisfaction score. \u00a0The system's unanticipated task of restaurant reservation is not well handled."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "dialogue": [
+      {
+        "speaker": "SYSTEM",
+        "text": "What kind of movies to you like, and why do you like this type of movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I really like dramas. I don't like every single drama but I do like that that they can take sort of a slice of life and make something special out of it. Dramas are usually the most realistic and the most ordinary type of movies that you can go and see. So, there are makers who can make something special out of sort of an ordinary is quite an accomplishment and enjoyable to watch.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Can you name a particular movie that you like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Sure. Good Will Hunting is one of my favorite movies.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Can you give me a couple of reasons why you like this movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Sure. The cast is excellent. The writing is superb. It is really It was so original and so insightful for who the characters were. Very And the movie was incredibly endearing and incredibly touching.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Can you name a movie that you do not like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Sure. I don't like the Titanic.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What do you dislike about this movie? Please give me 2 reasons.",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Sure. It is an epic film, and to me, it doesn't do well with its epicness. It is rather ordinary, and the two main characters, while likable, would have been better suited for something of a smaller scale, despite the overall grand nature of the story they were trying to tell in the historical aspect. And the other thing is that it just",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "It's It's so such a over hyped movie and it's just, I don't know, ordinary. It's not something that's overly enjoyable and it's nothing that you want to keep watching over and over again. It having a good soundtrack or two likable characters out of, I don't know, a hundred isn't something that you should should get loaded over so much.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie Insurgent?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I do.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What do you like about this movie? Please give me 2 reasons.",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Sure. Insurgent is a sequel to Divergent and it I like the first one and the second one is very good. It is a good a really good continuation of the of the story and it's a a nice sort of second look into the characters that we met the first time but in a really showing them in a completely different not a completely different make but in a different light that we saw",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "first one In the first one they were battling for something competitively different than in the second one even thought they are related, so it really did carry a long the imagery well. It was very enjoyable.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie Interstellar ?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I haven't seen Interstellar.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Have you heard of this movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I have.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Would you go see it?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I would, but it's probably something that I would It's more likely that I would see with a friend who wanted to see it more than I did.",
+        "tags": ["ENTITY_OTHER", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie Solo: A Star Wars Story?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah, I I like Star Wars movies. Yes.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What do you like about this movie? Please give me 2 reasons.",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Sure. It is Star Wars mythology and the world that they create is really something special, and this definitely continues that. The other thing is that it's just It's quite a world that they've created, so it's exciting. So it really is a nice escape, and it's incredibly detailed, so it helps to sort of create this other world. It's a lot to follow, but it is enjoyable.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie Batman v Superman: Dawn of Justice ?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "It's not my favorite. No.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [2, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Why do you dislike this movie? Please give 2 reasons.",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Sure. I think it was poorly thought out. I think the So I think it was poorly thought out, and the writing, because it was poorly thought out, suffered. Like they didn't They knew they were trying to do a movie that included both characters, so they were trying for something interesting, but they didn't have anything that really connected them that warranted making a movie.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Thank you for your feedback. Enjoy your evening.",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Thanks. You, too.",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      },
+      {
+        "speaker": "USER",
+        "text": "OVERALL",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 3]
+      }
+    ],
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 40,
+        "justification": "The system failed to complete the user's primary request (booking movie tickets). \u00a0While it found a movie showing, it didn't actually book the tickets. The restaurant reservation aspect was also flawed, with initial inaccuracies and ultimately a change to a time the system itself stated it couldn't accommodate. \u00a0The user had to guide the system heavily."
+      },
+      "HelpfulnessRelevance": {
+        "score": 60,
+        "justification": "The system offered relevant movie options initially. \u00a0However, its attempts to help with a restaurant reservation were unhelpful due to its inability to manage the request accurately. \u00a0The back-and-forth significantly reduced helpfulness."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 50,
+        "justification": "The movie showing information *might* be accurate, but we cannot verify. The system's handling of the restaurant reservation demonstrates inaccuracy \u2013 it claimed it couldn't fulfill a request and then did, showing a lack of consistent or reliable access to scheduling data."
+      },
+      "EmpathyPoliteness": {
+        "score": 70,
+        "justification": "The system maintained a polite tone throughout. However, it lacked proactive empathy; there was no apology for its failures or attempts to make up for its errors. A simple \"I apologize for the inconvenience\" would have improved this significantly."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No PII was disclosed, and no unsafe advice was given."
+      },
+      "EfficiencyEffort": {
+        "score": 30,
+        "justification": "This dialogue was incredibly inefficient. \u00a0Significant back-and-forth was required for both the movie and restaurant reservation. The user had to guide the system heavily, requiring a large amount of effort to achieve partial success (only getting a possible restaurant reservation)."
+      },
+      "FluencyCoherence": {
+        "score": 80,
+        "justification": "The language was grammatically correct and relatively natural, creating a coherent dialogue."
+      },
+      "OverallExperience": {
+        "score": 50,
+        "justification": "The customer likely felt frustrated. \u00a0Their main goal (movie tickets) was not fulfilled. The assistance with the restaurant reservation, while well-intentioned, was ultimately flawed and required significant effort from the customer. The lack of apology for the system's failures would add to their dissatisfaction. \u00a0The experience was far from seamless and efficient."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "dialogue": [
+      {
+        "speaker": "SYSTEM",
+        "text": "Hello. What kind of movies do you like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Sci-fi movies.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 3, 3, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Why do you like this kind of movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Usually the stories are pretty crazy, lot's fun technology, people flying around",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_GENRE_OR_CATEGORY"],
+        "scores": [3, 4, 4, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Can you name a particular movie that you like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Dr. Strange",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3, 4]
+      },
+      {
+        "speaker": "USER",
+        "text": "It had fun magic combined with science type of thing. The story was really good.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [4, 4, 4, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "I love Dr. Strange! What are the 2 things that you like about this movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "great actor",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 4, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Ditto. Can you name a movie that you do not like?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Bright.",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 4, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "What are the 2 things that you dislike about this movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "The story didn't seem to flow really well. It was kind of hard to get into. Really out there, so they didn't ease you into it. Also, the acting wasn't great.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [2, 2, 4, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie Dunkirk ?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Never seen it.",
+        "tags": ["OTHER"],
+        "scores": [2, 3, 3, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie Whiplash?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I haven't seen it.",
+        "tags": ["OTHER"],
+        "scores": [2, 3, 3, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie jason Bourne ?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yeah, they are all right.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 3, 3, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Can you give a couple of reasons why you like this movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Spy movies, so fun-ish story. The action, the fighting scenes were really good. Didn't have much going on besides that, though.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [4, 4, 4, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie Spotlight?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "I don't think I've seen it.",
+        "tags": ["OTHER"],
+        "scores": [3, 3, 4, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Do you like the movie Aliens ?",
+        "tags": ["ENTITY_NAME", "MOVIE_OR_SERIES"]
+      },
+      {
+        "speaker": "USER",
+        "text": "Yes.",
+        "tags": ["OTHER"],
+        "scores": [2, 2, 4, 2]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Last question: Can you give a couple of reasons why you like this movie?",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "The acting was really good. The It was pretty terrifying too, at points. And then you know, she fights an alien with a giant robot. That was cool.",
+        "tags": ["ENTITY_PREFERENCE", "MOVIE_OR_SERIES"],
+        "scores": [3, 4, 4, 3]
+      },
+      {
+        "speaker": "SYSTEM",
+        "text": "Thank you for the feedback. Good night.",
+        "tags": ["OTHER"]
+      },
+      {
+        "speaker": "USER",
+        "text": "OVERALL",
+        "tags": ["OTHER"],
+        "scores": [2, 4, 4, 2]
+      }
+    ],
+    "raw_text": {
+      "TaskSuccess": {
+        "score": 50,
+        "justification": "The system successfully identified a movie showing time. However, it completely failed to make a restaurant reservation, ultimately only managing to schedule one at a time that wasn't requested and not at the user's preferred restaurant (McDonald's). \u00a0The initial task was partially successful, but the secondary task was a complete failure."
+      },
+      "HelpfulnessRelevance": {
+        "score": 60,
+        "justification": "The initial movie information was relevant and helpful. However, the system's handling of the restaurant reservation request was unhelpful and irrelevant. The system didn't understand the user's specifications and failed to provide a working solution. \u00a0The system's insistence on making a reservation was also not helpful, as the customer explicitly declined."
+      },
+      "FaithfulnessAccuracy": {
+        "score": 70,
+        "justification": "The movie showing time appears accurate (assuming availability). However, the system's inability to make a restaurant reservation raises concerns about accuracy. It likely lacks integration with restaurant reservation systems, or its query failed. The information about the movie was factual, but the restaurant booking failed."
+      },
+      "EmpathyPoliteness": {
+        "score": 80,
+        "justification": "The system maintained a polite and professional tone throughout. \u00a0It apologized for its inability to fulfill the reservation request at the specified time. \u00a0However, it showed little empathy for the user's frustration with repeated failed attempts."
+      },
+      "ComplianceSafety": {
+        "score": 100,
+        "justification": "No PII was leaked, and no unsafe advice was given. \u00a0The dialogue adhered to safety and compliance standards."
+      },
+      "EfficiencyEffort": {
+        "score": 40,
+        "justification": "The dialogue was highly inefficient. \u00a0Significant back-and-forth was required to clarify the restaurant reservation, ultimately resulting in failure. The customer had to repeat information multiple times."
+      },
+      "FluencyCoherence": {
+        "score": 85,
+        "justification": "The dialogue was grammatically correct and easy to understand. \u00a0The flow of conversation was logical except for the system's failure to properly handle the reservation."
+      },
+      "OverallExperience": {
+        "score": 60,
+        "justification": "The customer would likely be dissatisfied. While the movie showing information was helpful, the failure to make the restaurant reservation \u2013 a crucial part of the user's request \u2013 would be very frustrating. The repeated failures in the dialogue significantly reduced the overall positive experience. \u00a0The politeness of the system is not enough to compensate for its significant failures."
+      }
+    }
+  }
+]

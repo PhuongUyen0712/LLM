@@ -1,0 +1,133 @@
+Evaluate the following **Customer Service Dialogue** based on these seven criteria:
+
+1. **Task Success**  
+   - Was the customer’s issue resolved correctly and completely?  
+   - Did the agent/system provide accurate and actionable next steps?  
+   **Score (0–100).**
+
+2. **Helpfulness & Relevance**  
+   - Were the responses useful, specific, and relevant to the customer’s query?  
+   - Did the agent/system avoid unnecessary or generic replies?  
+   **Score (0–100).**
+
+3. **Faithfulness & Accuracy**  
+   - Are all responses factually correct and grounded in available data, policies, or documents?  
+   - Is there any sign of hallucination, misinformation, or unsupported claims?  
+   **Score (0–100).**
+
+4. **Empathy & Politeness**  
+   - Does the agent/system acknowledge the customer’s concerns, show understanding, and use polite, professional tone?  
+   - Is there emotional appropriateness (e.g., apology, reassurance)?  
+   **Score (0–100).**
+
+5. **Compliance & Safety**  
+   - Does the dialogue avoid disallowed actions (e.g., PII leakage, unsafe advice, policy violations)?  
+   - Does it follow organizational rules and escalation guidelines?  
+   **Score (0–100).**
+
+6. **Efficiency & Effort**  
+   - Was the solution provided in a concise way with minimal back-and-forth?  
+   - Did the dialogue reduce customer effort (low repetition, clear instructions)?  
+   **Score (0–100).**
+
+7. **Fluency & Coherence**  
+   - Are sentences grammatically correct, natural, and easy to understand?  
+   - Does the conversation flow logically without contradictions or abrupt shifts?  
+   **Score (0–100).**
+
+---
+
+**Final Output:**
+- Assign individual scores for each criterion (0–100).
+- Provide a **brief justification** for each score.
+- Based on the criteria, justify **Overall Customer Experience**,how satisfied would the customer likely be? Let think step by step(0-100)
+---
+
+### **Example**
+Dialogue:
+USER	What is the weather like on the March 4th?
+SYSTEM	In which city should I look?
+USER	The weather in Mill Valley.
+SYSTEM	The weather should be around 90 degrees and there is a 7 percent chance of rain.	
+USER	How humid will the temperature be?	
+SYSTEM	There is about a 18 percent humidity.	
+USER	Could you find a song from Jessie J album Who You Are?	
+SYSTEM	There is 1 song Mamma Knows Best by Jessie J from the album Who you are.
+USER	Yes, play it on the kitchen device.	
+SYSTEM	Play Mamma knows best on the kitchen speaker.	
+USER	No, play it on bedroom speaker instead.	
+SYSTEM	Play Mamma Knows Best on bedroom speaker.	
+USER	Yes, thank you. What is the genre of the song?	
+SYSTEM	The genre of the song is pop.	
+USER	Thank you for your help.	
+SYSTEM	Can I help with anything else?	
+USER	No, that is all.	
+SYSTEM	Have a good day.
+
+Evaluation:
+1. **Task Success**  
+   **Score: 80**  
+   Justification: The customer's initial query about the weather was addressed correctly, and the song request was fulfilled. However, the dialogue could have included more detailed weather information, such as wind speed or a more comprehensive forecast.
+
+2. **Helpfulness & Relevance**  
+   **Score: 85**  
+   Justification: The responses were generally relevant to the customer's queries. The agent provided specific answers to the weather and song requests. However, the dialogue could have included more context or additional information about the weather.
+
+3. **Faithfulness & Accuracy**  
+   **Score: 75**  
+   Justification: The weather information provided (90 degrees and 7% chance of rain) may not be accurate for Mill Valley on March 4th, as it is typically cooler. The humidity response also seems low for that temperature. The song information appears correct, but the weather data raises concerns about accuracy.
+
+4. **Empathy & Politeness**  
+   **Score: 90**  
+   Justification: The agent maintained a polite and professional tone throughout the conversation. The closing remarks were friendly, and the agent offered further assistance, which shows attentiveness to the customer's needs.
+
+5. **Compliance & Safety**  
+   **Score: 100**  
+   Justification: The dialogue adhered to safety and compliance standards. There were no violations of privacy or unsafe advice, and the agent followed appropriate protocols for the requests made.
+
+6. **Efficiency & Effort**  
+   **Score: 85**  
+   Justification: The dialogue was relatively efficient, with minimal back-and-forth. The agent quickly adapted to the customer's requests regarding the song playback. However, the initial weather query could have been more comprehensive to reduce follow-up questions.
+
+7. **Fluency & Coherence**  
+   **Score: 90**  
+   Justification: The dialogue was grammatically correct and easy to understand. The flow of conversation was logical, with no abrupt shifts or contradictions.
+
+**Overall satisfaction  Customer Experience**  
+   **Score: 73**  
+
+---
+
+### **Customer Service Dialogue:**
+
+USER	I'd like to check out a film.		
+SYSTEM	Where would you like to see one?		
+USER	In San Ramon.		
+SYSTEM	I got 9 for you. Breakthrough, Captain Marvel, and Dumbo, to start out.	
+USER	Let go with Breakthrough. See if you can find an IMAX at Regal Crow Canyon on the 9th.
+SYSTEM	At Regal Cinemas Crow Canyon 6? There is a 4 pm show.		
+USER	That is cool.	
+SYSTEM	So should I pick you up some tickets?	
+USER	No. Don't do that.	
+SYSTEM	What should I do?	
+USER	Make a reservation at a nearby restaurant.	
+SYSTEM	Do you have one in mind.	
+USER	Yeah, I like McDonald's.	
+SYSTEM	What time is good for you?	
+USER	Half past 1 in the afternoon.
+SYSTEM	Table for 2 at McDonald's in San Ramon on March 9th at 1:30 pm. Is that accurate?	
+USER	No, I need it for 3 at 11:45 am.
+SYSTEM	Table for 3 at 11:45 am?
+USER	Yes, thats right.
+SYSTEM	Sorry, can't do that at McDonald's. Should I try 12 pm on MArch 9th for 3?	
+USER	Yes, try that.	
+SYSTEM	Done. You have a table.
+USER	Great work. Thanks.
+SYSTEM	What else do you have for me.	
+USER	Nothing. Just relax.	
+SYSTEM	Will do, thanks.	
+
+---
+
+Now, evaluate this dialogue and provide the final score.
+

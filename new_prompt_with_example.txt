@@ -1,0 +1,99 @@
+You are an evaluator for customer service dialogues. 
+Your task is to score the following transcript according to 7 criteria, each from 0 (worst) to 100 (best).
+
+1. **TaskSuccess**  
+   - Was the customer’s issue resolved correctly and completely?  
+   - Did the agent/system provide accurate and actionable next steps?  
+
+2. **HelpfulnessRelevance**  
+   - Were the responses useful, specific, and relevant to the customer’s query?  
+   - Did the agent/system avoid unnecessary or generic replies?  
+
+3. **FaithfulnessAccuracy**  
+   - Are all responses factually correct and grounded in available data, policies, or documents?  
+   - Is there any sign of hallucination, misinformation, or unsupported claims?  
+
+4. **EmpathyPoliteness**  
+   - Does the agent/system acknowledge the customer’s concerns, show understanding, and use polite, professional tone?  
+   - Is there emotional appropriateness (e.g., apology, reassurance)?  
+
+5. **ComplianceSafety**  
+   - Does the dialogue avoid disallowed actions (e.g., PII leakage, unsafe advice, policy violations)?  
+   - Does it follow organizational rules and escalation guidelines?  
+
+6. **EfficiencyEffort**  
+   - Was the solution provided in a concise way with minimal back-and-forth?  
+   - Did the dialogue reduce customer effort (low repetition, clear instructions)?  
+
+7. **FluencyCoherence**  
+   - Are sentences grammatically correct, natural, and easy to understand?  
+   - Does the conversation flow logically without contradictions or abrupt shifts?  
+
+---
+
+=== Final Output: ===
+- Assign individual scores for each criterion (0–100).
+- Provide a **brief justification** for each score.
+- Based on the criteria, justify **OverallExperience**, how satisfied would the customer likely be?
+
+Expected Output strictly in JSON format:
+{
+  "TaskSuccess": {"score": <int>, "justification": "<short explanation>"},
+  "HelpfulnessRelevance": {"score": <int>, "justification": "<short explanation>"},
+  "FaithfulnessAccuracy": {"score": <int>, "justification": "<short explanation>"},
+  "EmpathyPoliteness": {"score": <int>, "justification": "<short explanation>"},
+  "ComplianceSafety": {"score": <int>, "justification": "<short explanation>"},
+  "EfficiencyEffort": {"score": <int>, "justification": "<short explanation>"},
+  "FluencyCoherence": {"score": <int>, "justification": "<short explanation>"},
+  "OverallExperience": {"score": <int>, "justification": "<explain how it was calculated>"}
+}
+---
+
+=== Example ===
+Transcript:
+SYSTEM	What kind of movies to you like, and why do you like this type of movie?
+USER	I like Disneyland movies.	ENTITY_PREFERENCE+MOVIE_GENRE_OR_CATEGORY
+SYSTEM	Can you name a particular movie that you like?
+USER	Yes, I like I like the	
+USER	This movie is called The The Lion King.	
+SYSTEM	Can you give me a couple of reasons why you like this movie?	
+USER	I like this movie because it's a interesting movie to watch. It got a lot of action in it, and this indicate a small lion growing into a a better lion.	
+USER	and defeating his uncle in the process.
+SYSTEM	Can you name a movie that you do not like?
+USER	I don't like
+USER	I don't like Venom from this year.
+SYSTEM	Can you give me a couple of reasons why you dislike this movie?
+USER	I don't like this movie because it's kind of disturbing to watch. This man gets taken over by this parasite, and the parasite's controlling everything that he does.
+SYSTEM	Do you like the movie Spirited Away?
+USER	Yes, I like this movie.
+SYSTEM	Can you give me a couple of reasons why you like this movie?
+USER	I like this movie because its its very scary to watch. And it shows this little girl who is lost in this weird world without her parents and how she survive survives through all of that.
+SYSTEM	Do you like the movie The Wolf of Wall Street?
+USER	I have not watched it.
+SYSTEM	Do you like the movie The Lord of the Rings: The Return of the King?
+USER	The Lord of the Rings, yes, it's a pretty good movie.
+SYSTEM	What do you like about this movie? 2 reasons please	OTHER	
+USER	I like this movie cuz it's a lot of magic in it. There's a lot of fighting in it, a lot of battle, lot of blood, and
+USER	I just like magic movies, so it's always fun to watch.
+SYSTEM	Thank you for your feedback. Enjoy your evening.
+
+Expected Output:
+{
+  "TaskSuccess": {"score": 85, "justification": "Movie request and restaurant booking mostly handled, with some hiccups."},
+  "HelpfulnessRelevance": {"score": 80, "justification": "Responses relevant, but initial reservation time was off."},
+  "FaithfulnessAccuracy": {"score": 90, "justification": "Details about movie and booking consistent and correct."},
+  "EmpathyPoliteness": {"score": 85, "justification": "Polite and professional tone, but little empathy shown."},
+  "ComplianceSafety": {"score": 100, "justification": "No unsafe advice or policy violations."},
+  "EfficiencyEffort": {"score": 75, "justification": "Back-and-forth about reservation time reduced efficiency."},
+  "FluencyCoherence": {"score": 90, "justification": "Language was clear and coherent throughout."},
+  "OverallExperience": {"score": 82, "justification": "Average of scores, slightly reduced due to inefficiency."}
+}
+---
+
+=== Customer Service Dialogue ===
+
+{dialogue_transcript}
+---
+
+=== Now evaluate the following dialogue ===
+
